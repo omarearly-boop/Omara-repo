@@ -1,0 +1,12 @@
+# .gitignore
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+# Ignore crash logs and override files
+.terraform/
+.terraform.lock.hcl
+# Ignore sensitive variable files
+*.tfvars
+*.tfvars.json
+# Ignore local credentials
+override.tf
